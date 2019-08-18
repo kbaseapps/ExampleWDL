@@ -1,0 +1,36 @@
+#
+# define display information
+#
+name: Hello App using WDL
+
+tooltip: |
+    Run the WDL Hello World workflow
+
+screenshots: []
+
+icon: icon.png
+
+#
+# define a set of similar apps that might be useful to the user
+#
+suggestions:
+    apps:
+        related:
+            [app1, app2]
+        next:
+            [app3, app4]
+
+#
+# Configure the display and description of parameters
+#
+parameters :
+    parameter_1 :
+        ui-name : |
+            Name
+        short-hint : |
+            Who should you say Hello to?
+        long-hint  : |
+            Would you like to say hello?  Who?  Well this is it.
+
+description : |
+    <p>Example app for WDL</p>
